@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09e75799-a3c7-4bad-9c6c-3c8e21a35133" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/twu/diamond/Diamond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/twu/diamond/Isosceles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/twu/diamond/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/twu/diamond/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/twu/diamond/ShapeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/twu/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/twu/diamond/IShape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/triangle/HorizontalLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/triangle/HorizontalLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/triangle/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/triangle/Line.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/triangle/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/triangle/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/triangle/VerticalLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/triangle/VerticalLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/triangle/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/triangle/HorizontalLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/triangle/HorizontalLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/triangle/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/triangle/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/triangle/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/triangle/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/triangle/VerticalLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/triangle/VerticalLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/diamond/Isosceles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/diamond/Isosceles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/diamond/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/diamond/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/diamond/Diamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/diamond/Diamond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/diamond/Isosceles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/diamond/Isosceles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/diamond/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/diamond/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/diamond/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/diamond/Shape.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,34 +19,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/intro_programming_exercises$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1530044554973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.twu.diamond.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Diamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shape.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Shape.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Isosceles.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Isosceles.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
               <folding>
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1203#1204#0" expanded="true" />
+                <element signature="e#1217#1218#0" expanded="true" />
+                <element signature="e#1265#1266#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,8 +42,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="120">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -78,6 +55,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -97,9 +75,10 @@
         <option value="$PROJECT_DIR$/src/com/twu/triangle/Main.java" />
         <option value="$PROJECT_DIR$/src/com/twu/diamond/ShapeType.java" />
         <option value="$PROJECT_DIR$/src/com/twu/diamond/Shape.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/diamond/Diamond.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/diamond/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/diamond/IShape.java" />
         <option value="$PROJECT_DIR$/src/com/twu/diamond/Isosceles.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/diamond/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/diamond/Diamond.java" />
       </list>
     </option>
   </component>
@@ -257,12 +236,12 @@
       <option name="presentableId" value="Default" />
       <updated>1529963312590</updated>
       <workItem from="1529963316059" duration="2332000" />
-      <workItem from="1530013295858" duration="9528000" />
+      <workItem from="1530013295858" duration="11481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11860000" />
+    <option name="totallyTimeSpent" value="13813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="810" extended-state="6" />
@@ -308,19 +287,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/twu/diamond/Isosceles.java</url>
-          <line>45</line>
+          <url>file://$PROJECT_DIR$/src/com/twu/diamond/Diamond.java</url>
+          <line>30</line>
           <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/twu/diamond/Isosceles.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="12" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -453,13 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Diamond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/ShapeType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -467,27 +433,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Shape.java">
+    <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/IShape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Isosceles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
           <folding>
-            <element signature="e#1157#1158#0" expanded="true" />
-            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Diamond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1265#1266#0" expanded="true" />
           </folding>
         </state>
       </provider>

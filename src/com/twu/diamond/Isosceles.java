@@ -1,10 +1,6 @@
 package com.twu.diamond;
 
-import java.util.ArrayList;
-
-public class Isosceles {
-    int maxSize;
-    String shapeArray[][];
+public class Isosceles extends Shape {
     public void print() {
         for (String[] line : shapeArray) {
             System.out.print("\n");
@@ -28,11 +24,10 @@ public class Isosceles {
                 }
             }
             oddNumber = oddNumber + 2;
-            System.out.print(shapeArray);
         }
     }
 
-    private int getMaxSize(int number) {
+    public int getMaxSize(int number) {
         int i = 1;
         int oddNumber = 1;
         while (i < number) {
@@ -42,7 +37,7 @@ public class Isosceles {
         return oddNumber;
     }
 
-    private int getCellsToFill(int oddNumber) {
+    public int getCellsToFill(int oddNumber) {
         return (maxSize - oddNumber) / 2;
     }
 }
