@@ -1,15 +1,8 @@
 package com.twu.triangle;
 
-public class Triangle extends Line {
+public class Triangle {
 
-    public static void main(String[] args) {
-        int number = 0;
-        Triangle triangle = new Triangle();
-        number = triangle.getNumberInput();
-        triangle.print(number);
-    }
-
-    private void print(int number) {
+    public void print(int number) {
         int i = 0;
         while (i < number) {
             i++;
