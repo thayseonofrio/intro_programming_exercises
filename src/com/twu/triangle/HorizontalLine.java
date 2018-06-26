@@ -8,6 +8,4 @@ public class HorizontalLine extends Line {
         number = (line.getNumberInput());
         line.print(number, LineType.HORIZONTAL);
     }
-
-
 }
