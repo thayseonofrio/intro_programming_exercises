@@ -14,6 +14,18 @@ public abstract class Shape implements IShape {
         }
     }
 
+    @Override
+    public String toString() {
+        StringBuilder retorno = new StringBuilder("");
+        for (String[] line : shapeArray) {
+            retorno.append("\n");
+            for (String data : line) {
+                retorno.append(data);
+            }
+        }
+        return retorno.toString();
+    }
+
     public int getMaxSize(int number) {
         int i = 1;
         int oddNumber = 1;

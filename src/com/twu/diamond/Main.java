@@ -6,6 +6,10 @@ public class Main {
     public static void main(String[] args) {
         int number;
         number = Utils.getNumberInput();
+        if (number == 0) {
+            System.out.print("Bye bye");
+            return;
+        }
         System.out.println("\n");
         System.out.println("Isosceles");
         Isosceles isosceles = new Isosceles();
@@ -15,7 +19,8 @@ public class Main {
         System.out.println("Diamond");
         Diamond diamond = new Diamond();
         diamond.drawShape(number);
-        diamond.print();
+        //diamond.print();
+        System.out.print(diamond);
         System.out.println("\n");
         System.out.println("Diamond with Name");
         DiamondName diamondName = new DiamondName();

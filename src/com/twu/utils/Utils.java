@@ -10,20 +10,36 @@ public class Utils {
         String inputLine = null;
         int number = 0;
         try {
-            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-            inputLine = reader.readLine();
-            if (inputLine.length() == 0) {
-                return 0;
-            }
-            if (!isNumber(inputLine)) {
-                System.out.println("Invalid number");
-                return 0;
-            }
+            inputLine = getInput();
+            if (verifyInputLength(inputLine)) return 0;
+            if (validateNumber(inputLine)) return 0;
             number = Integer.parseInt(inputLine);
         } catch (IOException e) {
             e.printStackTrace();
         }
         return number;
+    }
+
+    private static boolean validateNumber(String inputLine) {
+        if (!isNumber(inputLine)) {
+            System.out.println("Invalid number");
+            return true;
+        }
+        return false;
+    }
+
+    private static boolean verifyInputLength(String inputLine) {
+        if (inputLine.length() == 0) {
+            return true;
+        }
+        return false;
+    }
+
+    private static String getInput() throws IOException {
+        String inputLine;
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        inputLine = reader.readLine();
+        return inputLine;
     }
 
     private static Boolean isNumber(String input) {
