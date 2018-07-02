@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09e75799-a3c7-4bad-9c6c-3c8e21a35133" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/twu/triangleinterface/HorizontalLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/twu/triangleinterface/ILine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/twu/triangleinterface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/twu/triangleinterface/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/twu/triangleinterface/VerticalLine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/diamond/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/diamond/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/diamond/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/diamond/Shape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/diamond/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/diamond/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/diamond/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/diamond/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/triangle/HorizontalLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/triangle/HorizontalLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/triangle/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/triangle/Line.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/triangle/LineType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/triangle/VerticalLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro_programming_exercises/com/twu/triangle/VerticalLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/diamond/Diamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/diamond/Diamond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/triangle/HorizontalLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/triangle/HorizontalLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/triangle/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/triangle/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/triangle/LineType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/triangle/VerticalLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/triangle/VerticalLine.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,38 +33,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Diamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="255">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiamondName.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/DiamondName.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/triangle/Main.java">
+      <file leaf-file-name="Line.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/twu/triangle/Line.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Isosceles.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Isosceles.java">
+      <file leaf-file-name="HorizontalLine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/twu/triangleinterface/HorizontalLine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/twu/triangleinterface/Triangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -69,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/triangle/Triangle.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/twu/triangleinterface/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="315">
+              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -81,35 +94,39 @@
       <file leaf-file-name="Shape.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Shape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="-157">
+              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+              <folding>
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#980#981#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/utils/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Main.java">
+      <file leaf-file-name="ILine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/twu/triangleinterface/ILine.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="VerticalLine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/triangle/VerticalLine.java">
+        <entry file="file://$PROJECT_DIR$/src/com/twu/triangleinterface/VerticalLine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/twu/triangle/Triangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -120,8 +137,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Kotlin Interface" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -133,21 +151,27 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/twu/triangle/Easiest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/triangle/LineType.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/triangle/HorizontalLine.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/triangle/VerticalLine.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/triangle/Line.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/triangle/Triangle.java" />
         <option value="$PROJECT_DIR$/src/com/twu/triangle/Main.java" />
         <option value="$PROJECT_DIR$/src/com/twu/diamond/ShapeType.java" />
         <option value="$PROJECT_DIR$/src/com/twu/diamond/IShape.java" />
         <option value="$PROJECT_DIR$/src/com/twu/diamond/Isosceles.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/diamond/Diamond.java" />
         <option value="$PROJECT_DIR$/src/com/twu/diamond/DiamondName.java" />
         <option value="$PROJECT_DIR$/src/com/twu/fizzbuzz/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/com/twu/prime/PrimeFactors.java" />
         <option value="$PROJECT_DIR$/src/com/twu/diamond/Shape.java" />
         <option value="$PROJECT_DIR$/src/com/twu/diamond/Main.java" />
         <option value="$PROJECT_DIR$/src/com/twu/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/triangle/HorizontalLine.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/triangle/VerticalLine.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/triangle/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/triangle/Line.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/triangleinterface/Line.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/triangleinterface/VerticalLine.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/triangleinterface/HorizontalLine.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/triangleinterface/ILine.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/triangleinterface/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/triangleinterface/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/diamond/Diamond.java" />
       </list>
     </option>
   </component>
@@ -198,13 +222,6 @@
               <item name="twu" type="462c0819:PsiDirectoryNode" />
               <item name="diamond" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="intro_programming_exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_programming_exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="twu" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -216,6 +233,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/twu/triangleinterface" />
+      <recent name="$PROJECT_DIR$/src/com/twu" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -229,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.twu.fizzbuzz.FizzBuzz" />
       <module name="intro_programming_exercises" />
@@ -246,6 +269,16 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.twu.diamond.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.twu.triangleinterface.Main" />
+      <module name="intro_programming_exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twu.triangleinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,30 +300,20 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.twu.triangle.Triangle" />
-      <module name="intro_programming_exercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.twu.triangle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Triangle" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.FizzBuzz" />
       <item itemvalue="Application.PrimeFactors" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.PrimeFactors" />
         <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="Application.Triangle" />
       </list>
     </recent_temporary>
   </component>
@@ -308,12 +331,12 @@
       <workItem from="1530013295858" duration="13954000" />
       <workItem from="1530106473992" duration="3994000" />
       <workItem from="1530536595545" duration="3131000" />
-      <workItem from="1530561629506" duration="1045000" />
+      <workItem from="1530561629506" duration="2901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24456000" />
+    <option name="totallyTimeSpent" value="26312000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -338,11 +361,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33380282" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33380282" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3084507" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26108727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26108727" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -370,20 +393,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Diamond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/DiamondName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/triangle/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -416,6 +425,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -430,6 +443,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -603,28 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/triangle/HorizontalLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/triangle/Line.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/triangle/LineType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -639,31 +634,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/triangle/Triangle.java">
+    <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/DiamondName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Isosceles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/triangle/HorizontalLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/triangle/VerticalLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Diamond.java">
+    <entry file="file://$PROJECT_DIR$/src/com/twu/triangle/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="240">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/DiamondName.java">
+    <entry file="file://$PROJECT_DIR$/src/com/twu/triangle/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/triangleinterface/ILine.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/triangleinterface/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/triangleinterface/ILine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/triangleinterface/VerticalLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/triangleinterface/HorizontalLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/triangleinterface/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/triangleinterface/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -676,29 +760,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="-157">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Isosceles.java">
+    <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Diamond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/diamond/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
