@@ -1,6 +1,11 @@
 package com.twu.diamond;
 
 public class Diamond extends Shape {
+
+    public Diamond(int number) {
+        super(number);
+    }
+
     public void drawShape(int number) {
         maxSize = getMaxSize(number);
         shapeArray = new String[(number * 2) - 1][maxSize];

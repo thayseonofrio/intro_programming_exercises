@@ -10,21 +10,29 @@ public class Main {
             System.out.print("Bye bye");
             return;
         }
-        System.out.println("\n");
-        System.out.println("Isosceles");
-        Isosceles isosceles = new Isosceles();
-        isosceles.drawShape(number);
-        isosceles.print();
-        System.out.println("\n");
-        System.out.println("Diamond");
-        Diamond diamond = new Diamond();
-        diamond.drawShape(number);
-        //diamond.print();
-        System.out.print(diamond);
+        getIsosceles(number);
+        getDiamond(number);
+        getDiamondName(number);
+    }
+
+    private static void getDiamondName(int number) {
         System.out.println("\n");
         System.out.println("Diamond with Name");
-        DiamondName diamondName = new DiamondName();
-        diamondName.drawShape(number);
-        diamondName.print();
+        DiamondName diamondName = new DiamondName(number);
+        System.out.print(diamondName);
+    }
+
+    private static void getDiamond(int number) {
+        System.out.println("\n");
+        System.out.println("Diamond");
+        Diamond diamond = new Diamond(number);
+        System.out.print(diamond);
+    }
+
+    private static void getIsosceles(int number) {
+        System.out.println("\n");
+        System.out.println("Isosceles");
+        Isosceles isosceles = new Isosceles(number);
+        System.out.print(isosceles);
     }
 }

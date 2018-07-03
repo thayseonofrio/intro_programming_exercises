@@ -1,29 +1,26 @@
 package com.twu.diamond;
 
 public abstract class Shape implements IShape {
-    int maxSize;
-    int oddNumber;
-    String shapeArray[][];
+    protected int maxSize;
+    protected int oddNumber;
+    protected String shapeArray[][];
 
-    public void print() {
-        for (String[] line : shapeArray) {
-            System.out.print("\n");
-            for (String data : line) {
-                System.out.print(data);
-            }
-        }
+    public Shape(int number) {
+        drawShape(number);
     }
+
+    public abstract void drawShape(int number);
 
     @Override
     public String toString() {
-        StringBuilder retorno = new StringBuilder("");
+        StringBuilder string = new StringBuilder("");
         for (String[] line : shapeArray) {
-            retorno.append("\n");
+            string.append("\n");
             for (String data : line) {
-                retorno.append(data);
+                string.append(data);
             }
         }
-        return retorno.toString();
+        return string.toString();
     }
 
     public int getMaxSize(int number) {
@@ -36,22 +33,34 @@ public abstract class Shape implements IShape {
         return oddNumber;
     }
 
-    public int getCellsToFill(int oddNumber) {
+    protected int getCellsToFill(int oddNumber) {
         return (maxSize - oddNumber) / 2;
     }
 
-    public void fillShapeAscendantly(int number) {
+    protected void fillShapeAscendantly(int number) {
         oddNumber = 1;
-        for(int lineIndex = 0; lineIndex < number; lineIndex++) {
-            int fillCellsFrom = getCellsToFill(oddNumber);
-            for(int columnIndex = 0; columnIndex < shapeArray[lineIndex].length; columnIndex++) {
-                shapeArray[lineIndex][columnIndex] = " ";
-                if (columnIndex >= fillCellsFrom && columnIndex < (fillCellsFrom + oddNumber)) {
-                    shapeArray[lineIndex][columnIndex] = "*";
+        iterateThroughLine(number);
+    }
 
-                }
-            }
+    private void iterateThroughLine(int number) {
+        for(int lineIndex = 0; lineIndex < number; lineIndex++) {
+            iterateThroughColumn(lineIndex);
             oddNumber = oddNumber + 2;
+        }
+    }
+
+    private void iterateThroughColumn(int lineIndex) {
+        int fillCellsFrom = getCellsToFill(oddNumber);
+        for(int columnIndex = 0; columnIndex < shapeArray[lineIndex].length; columnIndex++) {
+            fillCell(lineIndex, fillCellsFrom, columnIndex);
+        }
+    }
+
+    private void fillCell(int lineIndex, int fillCellsFrom, int columnIndex) {
+        shapeArray[lineIndex][columnIndex] = " ";
+        if (columnIndex >= fillCellsFrom && columnIndex < (fillCellsFrom + oddNumber)) {
+            shapeArray[lineIndex][columnIndex] = "*";
+
         }
     }
 }
